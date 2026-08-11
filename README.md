@@ -1,4 +1,4 @@
-# Guideline on How To Write a REAME.md file on Gith 
+# Guideline on How To Write a REAME.md file on Github 
 ## Overview 
 - Create a directory. 
 ```bash  
