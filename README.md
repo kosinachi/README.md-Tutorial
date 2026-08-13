@@ -41,11 +41,12 @@ git commit -m "intial commit"
 Go to your github.com/new and create repository  
 ```  
 ---    
-## Show or manage the other Git repositories this project is connected to    
+## Connect your local Git repository to a remote repository    
 ```bash  
 git remote add origin <url of the repo>  
 ```  
 ---  
+##  Show or manage the other Git repositories this project is connected to   
 ```bash  
 git remote -v  
 ```    
