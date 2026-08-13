@@ -2,8 +2,8 @@
 ## Overview 
 - Create a directory. 
 ```bash  
-mkdir <name of dir>  
-cd <name of dir>  
+mkdir my-readme-practice  
+cd my-readme-practice 
 ```  
 ---  
 - Intialise the directory  
@@ -16,16 +16,17 @@ git init
 touch README.md  
 ```  
 ---      
-- Add content to the file  
+## Add content to the file    
 ```bash  
 ```  
 ---    
-- Check if files are tracked or untracked    
+## Check if files are tracked or untracked  
+- Check Status      
 ```bash  
 git status  
 ```  
 ---      
-- Add to staging area  
+- Add file to staging area    
 ```bash  
 git add .  
 ```  
@@ -35,16 +36,18 @@ git add .
 git commit -m "intial commit"  
 ```  
 ---      
-- Create a new repo in github to receive your work  
+## Create a new repo in github to receive your work    
 ```bash  
 Go to your github.com/new and create repository  
 ```  
 ---    
-- git remote  
+## Show or manage the other Git repositories this project is connected to    
 ```bash  
 git remote add origin <url of the repo>  
 ```  
----    
+---  
+git remote -v  
+---     
 - Create a new branch for main  
 ```bash  
 git branch -M main  
@@ -58,4 +61,4 @@ git push -u origin main
 
 
 
-A professional README example.
+This is A professional README example.
