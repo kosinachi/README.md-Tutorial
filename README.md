@@ -46,7 +46,9 @@ Go to your github.com/new and create repository
 git remote add origin <url of the repo>  
 ```  
 ---  
+```bash  
 git remote -v  
+```    
 ---     
 - Create a new branch for main  
 ```bash  
